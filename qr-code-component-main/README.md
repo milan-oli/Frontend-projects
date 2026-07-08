@@ -23,7 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Repository URL: [github.com/milan-oli/frontend-projects/tree/main/qr-code-component-main](https://github.com/milan-oli/frontend-projects/tree/main/qr-code-component-main)
-- Live Site URL: [milan-oli.github.io/frontend-projects/qr-code-component-main/](https://milan-oli.github.io/frontend-projects/qr-code-component-main/)
+- Live Site URL: [milan-oli.github.io/frontend-projects/qr-code-component-main/](https://milan-oli.github.io/Frontend-projects/qr-code-component-main/)
 
 ## My process
 
