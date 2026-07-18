@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Repository URL: [github.com/milan-oli/frontend-projects/tree/main/blog-preview-card-main](https://github.com/milan-oli/frontend-projects/tree/main/blog-preview-card-main)
-- Live Site URL: [milan-oli.github.io/frontend-projects/blog-preview-card-main/](https://milan-oli.github.io/frontend-projects/blog-preview-card-main/)
+- Live Site URL: [milan-oli.github.io/frontend-projects/blog-preview-card-main/](https://milan-oli.github.io/Frontend-projects/blog-preview-card-main/)
 
 ## My process
 
