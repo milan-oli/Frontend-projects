@@ -1,6 +1,6 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0rem;
+  margin: 0rem;
   box-sizing: border-box;
 }
 :root {
@@ -8,6 +8,7 @@
   --primary-white: hsl(0, 0%, 100%);
   --primary-Gray500: hsl(0, 0%, 42%);
   --primary-Gray950: hsl(0, 0%, 7%);
+  --card-shadow: 0.4rem 0.4rem 0.4rem 0.4rem rgb(175, 173, 173); 
 }
 body {
   font-family: "Figtree", sans-serif;
@@ -22,31 +23,30 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--primary-white);
-  width: 90%;
-  max-width: 330px;
+  width: clamp(300px, 90%, 400px);
   padding: 1.4rem;
   border: 2px solid var(--primary-Gray950);
-  border-radius: 12px;
-  gap: 30px;
-  box-shadow: 0.6rem 0.6rem var(--primary-Gray950);
+  border-radius: 0.8rem;
+  gap: 2rem;
+  box-shadow: 0.5rem 0.5rem var(--primary-Gray950);
 }
 main{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.3rem;
 }
 .hero{
     display: flex;
     flex-direction: column;
-    gap : 30px;
+    gap : 2rem;
 }
 .hero-img {
- border-radius: 10px;
+ border-radius: 0.6rem;
   object-fit: cover;
 }
 .hero-img:hover{
-    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem rgb(175, 173, 173);
-    transition:  box-shadow 0.3s;
+    box-shadow: var(--card-shadow);
+    
 }
 .label-lrn {
   width: fit-content;
@@ -54,7 +54,7 @@ main{
   font-size: 0.9rem;
   font-weight: 800;
   border: 1px solid var(--primary-yellow);
-  border-radius: 6px;
+  border-radius: 0.45rem;
   background-color: var(--primary-yellow);
   color: var(--primary-Gray950);
 }
@@ -77,15 +77,20 @@ p {
 }
 .avatar {
   display: flex;
-  gap: 20px;
+  gap: 1rem;
   justify-content: left;
   align-items: center;
 }
 .avatar-img {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
 }
 .avatar span{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 800;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-img:hover {
+    transition: box-shadow 0.3s;
+  }
 }
