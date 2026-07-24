@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Social links profile solution screenshot](./preview.jpg)
+![Social links profile solution screenshot](./preview.jpeg)
 
 ### Links
 
